@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cooking-training</title>
+    <link rel="stylesheet" href="../style/Reset.css">
+    <!-- ریست -->
+    <link rel="stylesheet" href="../style/font.css">
+    <!--  فونت  -->
+    <link rel="stylesheet" href="../style/grid.css">
+    <!--  گرید  -->
+    <link rel="stylesheet" href="../style/swiper.css">
+    <link rel="stylesheet" href="../style/app.css">
+    <!--  فایل استایل پروژه  -->
+    <link rel="stylesheet" href="../style/respansive.css">
+    <!-- در اخر فایل ریسپانسیو  -->
+    <link rel="icon" href="../imges/logo.png" type="imges/png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__werraper">
+                <div class="header__logo">
+                    <img class="header__img" src="../imges/logo.png" alt="">
+                </div>
+                <nav class="nav-menu">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="../index.html" class="menu__link">خانه</a>
+                        </li>
+                        <li class="menu__item  menu__item--icon controls">
+                            <a href="" class="menu__link">دوره ها</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu__item controls">
+                                    <a href="" class="sub-menu__link"> آموزش آشپزی
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15.75 19.5 8.25 12l7.5-7.5" />
+                                        </svg>
+                                    </a>
+                                    <ul class="sub-menu position">
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آشپزی</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">کباب زنی و تخته کاری</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آشپزی بین الملل</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آموزش سوسیس کالباس</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آموزش صبحانه</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آموطش سوشی</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu__item controls">
+                                    <a href="" class="sub-menu__link">کیک و شیرینی
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15.75 19.5 8.25 12l7.5-7.5" />
+                                        </svg>
+                                    </a>
+                                    <ul class="sub-menu position">
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آموزش کیک پزی حرفه ای
+                                            </a>
+                                        </li>
+                                        <li class="sub-menu__item controls">
+                                            <a href="" class="sub-menu__link">دوره آموزش شیرینی پزی </a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آموزش کیک های کافی شاپی</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آموزش دکور کیک پیشرفته</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آموزش باقلوا استانبولی</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu__item controls">
+                                    <a href="" class="sub-menu__link">
+                                        پکیج های شیرینی پزی
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15.75 19.5 8.25 12l7.5-7.5" />
+                                        </svg>
+                                    </a>
+                                    <ul class="sub-menu position">
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">مینی پک قنادی
+                                            </a>
+                                        </li>
+                                        <li class="sub-menu__item controls">
+                                            <a href="" class="sub-menu__link">پکیج ترکیبی</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">پکیج کیک و شیرینی</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">پکیج قنادشو</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu__item controls">
+                                    <a href="" class="sub-menu__link">دسر-پیش غذا-سالاد
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15.75 19.5 8.25 12l7.5-7.5" />
+                                        </svg>
+                                    </a>
+                                    <ul class="sub-menu position">
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">دسر ساز بین المللی
+                                            </a>
+                                        </li>
+                                        <li class="sub-menu__item controls">
+                                            <a href="" class="sub-menu__link">دسر ساز سنتی</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">فینگر فود</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">سالاد سازی و اردور سازی</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">تهیه دسرهای ژله ای و تزریقی</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">دوره مربا</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">انواع ترشی و شور</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">سفره آرایی و چیدمان میز</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="sub-menu__item controls">
+                                    <a href="" class="sub-menu__link">پکیج های آشپزی
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15.75 19.5 8.25 12l7.5-7.5" />
+                                        </svg>
+                                    </a>
+                                    <ul class="sub-menu position">
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link"> پکیج لاین کوک</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link"> پکیج آشپز شو</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link"> پکیج شف مستر</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu__item controls">
+                                    <a href="" class="sub-menu__link">نان و خمیر
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15.75 19.5 8.25 12l7.5-7.5" />
+                                        </svg>
+                                    </a>
+                                    <ul class="sub-menu position">
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">نان حجیم و نیمه حجیم </a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="sub-menu__item controls">
+                                    <a href="" class="sub-menu__link">کافی شاپ و فست فود
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="5" stroke="currentColor" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M15.75 19.5 8.25 12l7.5-7.5" />
+                                        </svg>
+                                    </a>
+                                    <ul class="sub-menu position">
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آموزش پيتزاپزی </a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آموزش فست فود </a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آموزش لاته آرت</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">تهیه نوشیدنی های سرد</a>
+                                        </li>
+                                        <li class="sub-menu__item">
+                                            <a href="" class="sub-menu__link">آموزش باریستا</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="4"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </li>
+                        <li class="menu__item">
+                            <a href="blog.html" class="menu__link">وبلاگ</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="about-us.html" class="menu__link">درباره ما</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contact-us.html" class="menu__link">تماس باما</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__search">
+                    <button class="search-button" type="submit">
+                        <svg id="search" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </button>
+                    <input class="search-inout" type="text" placeholder="دوره مورد نظر را جستجو کنید ">
+                </div>
+                <div class="toggel-menu">
+                    <span class="toggel-menu__line"></span>
+                </div>
+                <nav class="nav-mobail">
+                    <aside>
+                        <ul class="menu-mobail">
+                            <li class="menu-item" id="home">
+                                <a href="">
+                                    خانه
+                                </a>
+                            </li>
+                            <li class="menu-item " id="cours">
+                                <a class="dropdown">
+                                    دوره ها
+                                    <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="4" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                    </svg>
+                                </a>
+                                <ul>
+                                    <li class="menu-item__sub">
+                                        <a>آموزش آشپزی
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="4" stroke="currentColor" class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="">آشپزی</a>
+                                            </li>
+                                            <li>
+                                                <a href="">کباب زنی و تخته کاری</a>
+                                            </li>
+                                            <li>
+                                                <a href="">آشپزی بیم الملل</a>
+                                            </li>
+                                            <li>
+                                                <a href="">آموزش سوسیس کالباس</a>
+                                            </li>
+                                            <li>
+                                                <a href="">آموزش صبحانه</a>
+                                            </li>
+                                            <li>
+                                                <a href="">آموزش سوشی</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item__sub">
+                                        <a>کیک و شیرینی
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="4" stroke="currentColor" class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="">آموزش کیک پزی حرفه ای
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">دوره آموزش شیرینی پزی </a>
+                                            </li>
+                                            <li>
+                                                <a href="">دوره آموزش شیرینی پزی </a>
+                                            </li>
+                                            <li>
+                                                <a href="">آموزش دکور کیک پیشرفته</a>
+                                            </li>
+                                            <li>
+                                                <a href="">آموزش باقلوا استانبولی</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item__sub">
+                                        <a>پکیج های شیرینی پزی
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="4" stroke="currentColor" class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="">مینی پک قنادی
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">پکیج ترکیبی</a>
+                                            </li>
+                                            <li>
+                                                <a href="">پکیج کیک و شیرینی</a>
+                                            </li>
+                                            <li>
+                                                <a href="">پکیج قنادشو</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item__sub">
+                                        <a>
+                                            دسر-پیش غذا-سالاد
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="4" stroke="currentColor" class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="">دسر ساز بین المللی
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">دسر ساز سنتی</a>
+                                            </li>
+                                            <li>
+                                                <a href="">فینگر فود</a>
+                                            </li>
+                                            <li>
+                                                <a href="">فینگر فود</a>
+                                            </li>
+                                            <li>
+                                                <a href="">تهیه دسرهای ژله ای و تزریقی</a>
+                                            </li>
+                                            <li>
+                                                <a href="">دوره مربا</a>
+                                            </li>
+                                            <li>
+                                                <a href="">انواع ترشی و شور</a>
+                                            </li>
+                                            <li>
+                                                <a href="">سفره آرایی و چیدمان میز</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item__sub">
+                                        <a>پکیج های آشپزی
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="4" stroke="currentColor" class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href=""> پکیج لاین کوک</a>
+                                            </li>
+                                            <li>
+                                                <a href=""> پکیج آشپز شو</a>
+                                            </li>
+                                            <li>
+                                                <a href=""> پکیج شف مستر</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li>
+                                    <li class="menu-item__sub">
+                                        <a>کافی شاپ و فست فود
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="4" stroke="currentColor" class="w-6 h-6">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href="">آموزش پيتزاپزی </a>
+                                            </li>
+                                            <li>
+                                                <a href="">آموزش فست فود </a>
+                                            </li>
+                                            <li>
+                                                <a href="">آموزش لاته آرت</a>
+                                            </li>
+                                            <li>
+                                                <a href="">آموزش باریستا</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item" id="blog">
+                                <a href="">
+                                    وبلاگ
+                                </a>
+                            </li>
+                            <li class="menu-item" id="contanct">
+                                <a href="">
+                                    تماس باما
+                                </a>
+                            </li>
+                            <li class="menu-item" id="about">
+                                <a href="">
+                                    درباره ما
+                                </a>
+                            </li>
+                        </ul>
+                    </aside>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="reservation">
+            <div class="reservation-content">
+                <h1 class="reservation-content__title">دوره آشپزی</h1>
+                <div class="breadcrumbs-werraper">
+                    <p class="breadcrumbs">
+                        <span>
+                            <a class="breadcrumbs__link " href="">خانه</a>
+                        </span>
+                        »
+                        <span>
+                            <a class="breadcrumbs__link" href="">دوره ها</a>
+                        </span>
+                        »
+                        <span>
+                            <a class="breadcrumbs__link" href="">غذای اصلی</a>
+                        </span>
+                        »
+                        <span>
+                            <a class="breadcrumbs__link breadcrumbs__link--active" href="">آشپزی</a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="course">
+            <div class="container">
+                <div class="cours-werraper">
+                    
+                    <div class="header-title">
+                        <h1 class="title">معرفی دوره</h1>
+                    </div>
+                    <div class="cours-content">
+                        <div class="cours-content__left">
+                            <video class="cours-content__video" src="../imges/usc0-480-4.mp4" controls></video>
+                        </div>
+                        <div class="cours-content__right">
+                            <h2 class="cours-content__title">دوره آشپزی</h2>
+                            <p class="cours-content__caption">
+                                با توجه به گستردگی صنعت آشپزی مخصوصا در کشور ایران که از تنوع غذایی بالایی برخوردار است،
+                                شرکت در دوره‌های آموزش آشپزی اهمیت بسیار زیادی خواهد داشت. آموزش صحیح و اصولی به شما این
+                                امکان را می‌دهد تا زمینه پیشرفت را فراهم کرده و بتوانید انواع غذاهای ایرانی و غیر ایرانی را
+                                به بهترین نحو و به شکل حرفه‌ای فراگیرید. از نکات مثبتی که در این زمینه باید به آن اشاره
+                                داشته باشیم این است که یادگیری آشپزی نه تنها موجب آرامش روح و روان انسان می‌شود بلکه
+                                زمینه‌ای مناسب برای کسب درآمد را نیز فراهم خواهد کرد. در نتیجه حتما به هنگام انتخاب استاد و
+                                مجموعه آموزشی حساسیت زیادی به خرج داده و اعتبار آموزشگاه مورد نظر را بررسی کنید. برای
+                                یادگیری و فرا گرفتن آشپزی نکته مهمی که باید به آن توجه داشته باشید این است که به چ
+                            </p>
+                            <a href="" class="cours-content__link btn">
+                                همین حالا دوره رو رزرو کن</a>
+                        </div>
+                    </div>
+                    <div class="course-Information__werraper">
+                        <div class="cours-Information">
+    
+                            <div class="course-Information__img">
+                                <img src="../imges/2 (1).png" alt="">
+                            </div>
+                            <h3 class="course-Information__title">این دوره مناسب چه کسانی است؟</h3>
+                            <ul class="course-discription">
+                                <li class="course-discription__item">افرادی که عاشق آشپزی هستند.
+    
+                                </li>
+                                <li class="course-discription__item">افرادی که دوست دارند در زمینه آشپزی به مهارت دست پیدا
+                                    کنند.
+                                </li>
+                                <li class="course-discription__item">افرادی که می‌خواهند در این زمینه به صورت حرفه‌ای فعالیت
+                                    داشته باشند.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cours-Information  cours-Information--border">
+                            <div class="course-Information__img">
+                                <img src="../imges/1.png" alt="">
+                            </div>
+                            <h3 class="course-Information__title">پس از گذراندن این دوره می‌توانید ...</h3>
+                            <ul class="course-discription">
+                                <li class="course-discription__item">انواع غذاهای ایرانی را به راحتی و به صورت اصولی درست
+                                    کنید</li>
+                                <li class="course-discription__item">تهیه انواع خمیر برای درست کردن نان پیتزا یا غذاهای
+                                    خمیری امکان پذیر خواهد بود</li>
+                                <li class="course-discription__item">ترفندها و تکنیک‌های مورد استفاده در غذاهای مختلف را
+                                    خواهید آموخت.</li>
+                                <li class="course-discription__item">روش بکارگیری ادویه‌های مختلف، درست کردن سس و چاشنی را
+                                    فرا خواهید گرفت.</li>
+                            </ul>
+                            <a href="" class="course_Information__link btn">پیش ثبت‌ نام دوره</a>
+    
+                        </div>
+    
+                        <div class="cours-Information ">
+    
+                            <div class="course-Information__img">
+                                <img src="../imges/Group-48097498.png" alt="">
+                            </div>
+                            <h3 class="course-Information__title">علی دهقان</h3>
+                            <p class="cours-Information__caption">سرآشپز هتل های بین المللی آتادارای مدرک بین المللی
+                                آشپزی از ایتالیا</p>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="course-part">
+            <div class="container">
+                <div class="header-title">
+                    <h1 class="title">سرفصل‌های دوره</h1>
+                </div>
+                <div class="course-part-werapper">
+                    <div class="course-part-contant">
+                        <div class="course-part-contentbox__box">
+                            <img class="course-part-contentbox__img" src="../imges/selected-chapter.png" alt="">
+                            <h3 class="course-part-contentbox__title">فصل دو</h3>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش اول: </span>
+                                تهیه انواع سس‌های سرد و گرم
+                            </p>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش دوم: </span>
+                                تهیه انواع سوپ و آش
+                            </p>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش سوم: </span>
+                                تهیه انواع چلو و پلو
+                            </p>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش چهارم: </span>
+                                تهیه انواع خورش
+                            </p>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش پنجم: </span>
+                                تهیه انواع غذاهای گوشتی
+                            </p>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش ششم: </span>
+                                تهیه‌ی غذاهای سنتی ایرانی
+                            </p>
+                            <div class="course-part-contentbox-btn">
+                                <a href="" class="course-part-contentbox__link">
+                                    مشاهده ادامه بخش ها
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+                                    </svg>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="course-part-contentbox__box">
+                            <img class="course-part-contentbox__img" src="../imges/selected-chapter.png" alt="">
+                            <h3 class="course-part-contentbox__title">فصل یک</h3>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش اول: </span>
+                                تهیه انواع سالا و کوکتل و...
+                            </p>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش دوم: </span>
+                                تهیه انواع غذاهای خمیری
+                            </p>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش سوم: </span>
+                                تهیه انواع فینگر فود
+                            </p>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش چهارم: </span>
+                                تهیه غذاهای فست فودی
+                            </p>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش پنجم: </span>
+                                تهیه انواع خورش
+                            </p>
+                            <p class="course-part-contentbox__caption">
+                                <span> بخش ششم: </span>
+                                تهیه انواع خورش
+                            </p>
+                            <div class="course-part-contentbox-btn">
+                                <a href="" class="course-part-contentbox__link">
+                                    مشاهده ادامه بخش ها
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+                                    </svg>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="course-part__img">
+                        <img src="../imges/Group-48097657-min.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Comments">
+            <div class="container">
+                <div class="comment-swiper">
+                    <div class="header-title-werraper">
+                        <div class="header-title-section">
+                            <h1 class="title">باریستا</h1>
+                        </div>
+                        <h1 class="title">نظرات هنرجویان</h1>
+                    </div>
+                    <div class="swiper Swiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide height-img">
+                                <img src="../imges/2.png" />
+                            </div>
+                            <div class="swiper-slide height-img"">
+                                <img src=" ../imges/2.png" />
+                        </div>
+                        <div class="swiper-slide height-img"">
+                                <img src=" ../imges/2.png" />
+                    </div>
+                    <div class="swiper-slide height-img"">
+                                <img src=" ../imges/2.png" />
+                </div>
+                <div class="swiper-slide height-img"">
+                                <img src=" ../imges/2.png" />
+            </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            </div>
+            </div>
+            <div class="Comments-werraper">
+                <div class="Comments-form">
+                    <p class="Comments-form__caption">
+                        اگه تا اینجا اومدی ولی هنوز جواب سوالت رو پیدا نکردی یا در مورد دوره سوال داری، شماره‌ات رو
+                        بذار تا باهات
+                        <span>تماس </span>
+                        بگیریم!
+                    </p>
+                    <form action="" class="Comments-form__form">
+                        <input class="Comments-form__input" type="text"
+                            placeholder="نام و نام خانوادگی خودرا وارد کنید">
+                        <input class="Comments-form__input" type="text" placeholder="شماره تماس خودرا وارد کنید ">
+                        <button class="Comments-form__btn btn" type="submit">ثبت درخواست</button>
+                    </form>
+                </div>
+                <div class="Comments-img">
+                    <img src="../imges/confused_man.png" alt="">
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="barista">
+            <div class="container">
+                <div class="barista-werraper">
+                    <div class="header-title-werraper">
+                        <div class="header-title-section">
+                            <h1 class="title">باریستا</h1>
+                        </div>
+                        <h1 class="title">دوره‌های مرتبط</h1>
+                    </div>
+                    <div class="barista-swiper">
+                        <div class="swiper Swiper1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product">
+                                        <img src="../imges/sosisssss.jpg" alt="" class="product__img">
+                                        <h3 class="porduct__title">سوسیس و کالباس</h3>
+                                        <p class="product__caption">باریستا در دوره سوسیس کالباس، کمکت می‌کنه کسب و کار
+                                            خونگی خودتو راه اندازی کنی</p>
+                                        <a href="" class="product__link btn">رزرو</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product">
+                                        <img src="../imges/kafishop-1.jpg" alt="" class="product__img">
+                                        <h3 class="porduct__title">کافی شاپ</h3>
+                                        <p class="product__caption">باریستا در دوره متصدی کافی شاپ، پایه‌های مهم برای
+                                            کار در کافی شاپ‌های لاکچری رو باهات به اشتراک می‌زاره</p>
+                                        <a href="" class="product__link btn">رزرو</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product">
+                                        <img src="../imges/barista.jpg" alt="" class="product__img">
+                                        <h3 class="porduct__title">باریستا</h3>
+                                        <p class="product__caption">باریستا در دوره باریستا، فوت و فن‌های تهیه انواع
+                                            قهوه رو بهت یاد می‌ده</p>
+                                        <a href="" class="product__link btn">رزرو</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product">
+                                        <img src="../imges/deser-international.jpg" alt="" class="product__img">
+                                        <h3 class="porduct__title">دسر بین‌المللی</h3>
+                                        <p class="product__caption">باریستا در دوره دسر بین المللی، کمکت می‌کنه بتونی تو
+                                            رستوران‌ها و هتل‌های لاکچری شروع به فعالیت کنی</p>
+                                        <a href="" class="product__link btn">رزرو</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product">
+                                        <img src="../imges/nan-hajim.jpg" alt="" class="product__img">
+                                        <h3 class="porduct__title">نان حجیم و نیمه‌حجیم</h3>
+                                        <p class="product__caption">باریستا در دوره نان حجیم و نیمه حجیم، روش پخت انواع
+                                            نان رو با ترفندهای مختلف بهت آموزش می‌ده</p>
+                                        <a href="" class="product__link btn">رزرو</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product">
+                                        <img src="../imges/nooshidani.jpg" alt="" class="product__img">
+                                        <h3 class="porduct__title">نوشیدنی‌های سرد</h3>
+                                        <p class="product__caption">باریستا در دوره نوشیدنی‌های سرد، بهت یاد می‌ده چطور
+                                            طعم‌های جدید رو با نوآوری ایجاد کنی</p>
+                                        <a href="" class="product__link btn">رزرو</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="barista-discription">
+                        <h1 class="barista-discription__title">آموزش آشپزی</h1>
+                        <p class="barista-discription__caption">آموزش آشپزی به ما مهارت‌ها و تکنیک‌های لازم برای پخت و
+                            پز
+                            صحیح و لذیذ را می‌آموزد. این آموزش‌ها شامل تعلیم در مورد انتخاب مواد اولیه، آشنایی با
+                            ابزارهای
+                            آشپزی، فراگیری فنون برش و اجزای غذا، طرز تهیه و اجرای دستورات آشپزی است. همچنین، آموزش به ما
+                            نکات بهداشتی و اصول علمی را در مورد آشپزی نیز تعلیم می‌دهد.
+
+                            آشپزی یکی از هنرهایی است که امروزه به عنوان یکی از مهارت‌های ضروری در زندگی روزمره به حساب
+                            می‌آید. آموزش‌های آشپزی به افراد این امکان را می‌دهد تا بتوانند غذاهای خوشمزه و پرخاصیتی را
+                            در
+                            خانه خود تهیه کنند و در کنار آن، به درستی و با رعایت اصصول بهداشتی به امور آشپزی بپردازند.
+                        </p>
+                        <h1 class="barista-discription__title">
+                            آموزش آشپزی چیست؟</h1>
+                        <p class="barista-discription__caption">آموزش آشپزی فرایندی است که در آن مهارت‌ها و دانش‌های
+                            لازم
+                            برای پخت و آماده‌سازی غذاها را به افراد آموزش می‌دهد. این آموزش می‌تواند شامل تکنیک‌های پخت
+                            و
+                            پز، انتخاب و استفاده مناسب از مواد غذایی، اصول بهداشت و سلامت در آشپزخانه، تزئین ظاهری غذاها
+                            و
+                            سایر مهارت‌های مرتبط با پخت و پز باشد. هدف از آموزش دادن آشپزی، افزایش توانایی افراد در تهیه
+                            غذاهای خوشمزه، متنوع و سالم برای خود و خانواده خود است. افراد می‌توانند از طریق دوره‌های
+                            حضوری
+                            یا آنلاین، کتاب‌ها، ویدئوها و منابع دیگر آموزش‌های آشپزی را فرا بگیرند</p>
+                        <h1 class="barista-discription__title">بازار کار آموزش آشپزی</h1>
+                        <p class="barista-discription__caption">بازار کار آموزش آشپزی شامل محل‌های زیادی می‌شود که به
+                            افراد
+                            علاقه‌مند به آشپزی امکان آموزش می‌دهند. این محل‌ها می‌توانند شامل مدارس آشپزی، دوره‌های
+                            آموزشی،
+                            رستوران‌ها و هتل‌ها باشند.
+
+                            مدارس آشپزی معمولاً برنامه‌های آموزشی جامعی را برای دانشجویان ارائه می‌دهند. این برنامه‌ها
+                            شامل
+                            دروس تئوری و عملی است و به دانشجویان امکان می‌دهد مهارت‌های آشپزی و پخت و پز را به صورت
+                            حرفه‌ای
+                            یاد بگیرند.
+
+                            رستوران‌ها و هتل‌ها همچنین امکان آموزش آشپزی را برای افراد علاقه‌مند فراهم می‌کنند. بسیاری
+                            از
+                            رستوران‌ها و هتل‌های بزرگ در داخل و خارج کشور دوره‌های آموزشی برگزار می‌کنند تا به افراد
+                            علاقه‌مند امکان آموزش مهارت‌های آشپزی و پخت و پز را بدهند.
+
+                            با توجه به رشد صنعت هتل‌ها و رستوران‌ها و افزایش علاقه عموم به آشپزی، بازار کار آموزش آشپزی
+                            رو
+                            به رشد است.</p>
+                        <h1 class="barista-discription__title">درآمد آموزش آشپزی</h1>
+                        <p class="barista-discription__caption">درآمد آموزش آشپزی می‌تواند از طریق چند راه مختلف حاصل
+                            شود</p>
+                        <div class="barista-discription__menu">
+                            <h4 class="barista-discription__item">تدریس دوره‌های آشپزی</h4>
+                            <p class="barista-discription__caption">ارائه دوره‌های حضوری یا آنلاین برای آموزش تکنیک‌های
+                                آشپزی، دستورهای پخت غذاها، تزئین ظروف غذا و موارد مشابه. معمولاً در این روش، هزینه‌ی
+                                ثبت‌نام و شرکت در دوره برای هر شرکت کننده در نظر گرفته می‌شود.</p>
+                        </div>
+                        <div class="barista-discription__menu">
+                            <h4 class="barista-discription__item">نوشتن کتاب‌های آشپزی</h4>
+                            <p class="barista-discription__caption">تولید و فروش ویدئوهای آموزشی برای آشپزی و تهیه
+                                غذاهای مختلف نیز می‌تواند منبع درآمد باشد.</p>
+                        </div>
+                        <div class="barista-discription__menu">
+                            <h4 class="barista-discription__item">تحریف و تبلیغ محصولات آشپزی</h4>
+                            <p class="barista-discription__caption">در این روش، با تبلیغ محصولات آشپزی مختلف و دریافت
+                                کمیسیون از فروش این محصولات، درآمد کسب می‌شود</p>
+                        </div>
+                        <div class="barista-discription__menu">
+                            <h4 class="barista-discription__item">تبلیغات و همکاری با برندهای معروف</h4>
+                            <p class="barista-discription__caption"> تبلیغ برندهای مواد غذایی، وسایل آشپزی و محصولات
+                                مشابه در وبلاگ یا کانال‌های مجازی مرتبط با آشپزی، می‌تواند به صورت دائمی یا با
+                                همکاری‌های موقتی برای تبلیغ درآمدزا باشد.</p>
+                        </div>
+                        <div class="barista-discription__menu">
+                            <h4 class="barista-discription__item">ساخت ویدئوهای آموزشی</h4>
+                            <p class="barista-discription__caption">تولید و فروش ویدئوهای آموزشی برای آشپزی و تهیه
+                                غذاهای مختلف نیز می‌تواند منبع درآمد باشد.</p>
+                        </div>
+                        <h4 class="barista-discription__title">کلام پایانی</h4>
+                        <p class="barista-discription__caption">آموزش آشپزی به ما این امکان را می‌دهد که مهارت‌های لازم
+                            برای پخت و پز داشته باشیم و به راحتی غذاهای خوشمزه و سالمی را در خانه تهیه کنیم. این آموزش
+                            علاوه بر تسلط بر تکنیک‌ها و ترفندهای کلیدی آشپزی، به ما اطلاعاتی درباره تغذیه سالم، انتخاب
+                            مواد غذایی مناسب و ترکیبات بهینه‌ی غذا را نیز می‌دهد. آموزش‌های آشپزی ابزاری پرکاربرد برای
+                            هر فردی است برای بهبود سطح زندگی و سلامت خود و علاقه‌مندان به هنر آشپزی، یک راه عالی برای
+                            پوشیدن کلاه سرآشپز را دارد.</p>
+                       
+
+                            <button class="Read-more-btn btn">ادامه مطلب 
+                                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.441643 5.89359C-0.147214 6.53437 -0.147214 7.46563 0.441643 8.10641C2.25469 10.0793 6.54403 14 12 14C17.456 14 21.7453 10.0793 23.5584 8.10641C24.1472 7.46563 24.1472 6.53437 23.5584 5.89359C21.7453 3.92067 17.456 0 12 0C6.54403 0 2.25469 3.92067 0.441643 5.89359ZM12 2C7.68339 2 4.04578 5.05757 2.20582 7C4.04578 8.94243 7.68339 12 12 12C16.3166 12 19.9542 8.94243 21.7942 7C19.9542 5.05757 16.3166 2 12 2Z" fill="" fill-opacity="0.4"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 7C9 8.65685 10.3431 10 12 10C13.6569 10 15 8.65685 15 7C15 5.34315 13.6569 4 12 4C10.3431 4 9 5.34315 9 7ZM11 7C11 7.55228 11.4477 8 12 8C12.5523 8 13 7.55228 13 7C13 6.44772 12.5523 6 12 6C11.4477 6 11 6.44772 11 7Z" fill=""/>
+                                </svg>
+                            </button>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_werapper">
+                <div class="footer__logo">
+                    <img src="../imges/logo.png" alt="">
+                </div>
+                <ul class="footer-menu">
+                    <li class="footer-menu__item">
+                        <a class="footer-menu__link" href="">دسترسی سریع</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a class="footer-menu__link" href="">خانه</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a class="footer-menu__link" href="">دوره ها</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a class="footer-menu__link" href="">فروشگاه</a>
+                    </li>
+
+                </ul>
+                <ul class="footer-menu">
+                    <li class="footer-menu__item">
+                        <a class="footer-menu__link" href="">بلاگ</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a class="footer-menu__link" href="">تماس باما</a>
+                    </li>
+                    <li class="footer-menu__item">
+                        <a class="footer-menu__link" href="">درباره ما</a>
+                    </li>
+                </ul>
+                <div class="footer__social">
+                    <ul class="menu-social">
+                        <li class="menu-social__item">
+                            123456789 - 021
+                            <svg class="menu-social__svg" id="phone" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </li>
+                        <li class="menu-social__item">
+                            تهران، میدان هفتم تیر
+                            <svg class="menu-social__svg" id="map" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                            </svg>
+                        </li>
+                        <li class="menu-social__item">
+                            info@barista.com
+                            <svg class="menu-social__svg" id="email" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                            </svg>
+                        </li>
+                    </ul>
+                    <div class="footer-icon">
+                        <svg class="footer-icon__svg" id="whatsaap" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="" height="" x="0" y="0"
+                            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path
+                                    d="M437.018 74.98C388.665 26.628 324.378 0 255.998 0h-.002C187.622 0 123.33 26.631 74.98 74.98 26.629 123.332 0 187.619 0 256c.002 43.529 11.08 86.312 32.092 124.152L.554 492.96a15.001 15.001 0 0 0 18.486 18.485l112.811-31.539c37.836 21.015 80.617 32.093 124.148 32.094 68.381 0 132.668-26.629 181.021-74.981S512 324.379 512 255.999c-.002-68.381-26.632-132.667-74.982-181.019zM255.998 482c-40.346-.001-79.949-10.773-114.531-31.151a14.991 14.991 0 0 0-11.654-1.523L36.619 475.38l26.054-93.191a15 15 0 0 0-1.522-11.653C40.773 335.949 30.002 296.343 30 255.999c0-60.367 23.508-117.12 66.194-159.806S195.633 30 255.998 30C380.612 30 481.996 131.383 482 255.999 482 380.616 380.616 482 255.998 482z"
+                                    fill="" opacity="1" data-original="#000000" />
+                                <path
+                                    d="M366.507 275.182c-9.169-9.17-21.396-14.22-34.428-14.22s-25.258 5.05-34.425 14.219l-6.954 6.953c-1.715 1.714-4.02 2.659-6.489 2.659-2.471 0-4.776-.945-6.494-2.663l-47.873-47.872c-1.715-1.714-2.659-4.02-2.66-6.491 0-2.471.943-4.775 2.656-6.488l6.956-6.955c18.983-18.983 18.983-49.871.001-68.854l-13.911-13.915c-9.171-9.167-21.397-14.214-34.428-14.214s-25.257 5.048-34.427 14.218l-10.372 10.374c-21.929 21.929-29.889 54.585-22.416 91.955 7.033 35.164 27.136 70.762 56.607 100.236 37.139 37.135 84.439 59.307 126.53 59.31h.008c26.521 0 49.226-8.684 65.655-25.113l10.373-10.373c18.983-18.983 18.983-49.873 0-68.858zm-7.303 61.553-10.373 10.373c-10.682 10.681-26.048 16.326-44.442 16.326h-.005c-34.312-.002-73.684-18.889-105.319-50.522-25.33-25.332-42.52-55.486-48.403-84.907-5.443-27.217-.396-50.25 14.212-64.859l10.371-10.373c3.503-3.502 8.195-5.431 13.214-5.431 5.021 0 9.715 1.929 13.216 5.429l13.909 13.912c7.286 7.287 7.286 19.142.001 26.428l-6.956 6.955c-7.381 7.38-11.445 17.22-11.444 27.706.001 10.484 4.067 20.323 11.447 27.702l47.873 47.871c7.382 7.384 17.222 11.45 27.707 11.45 10.483 0 20.321-4.065 27.701-11.445l6.955-6.954c3.502-3.503 8.194-5.432 13.212-5.432 5.019 0 9.711 1.929 13.215 5.433l13.909 13.909c7.286 7.285 7.287 19.142 0 26.429z"
+                                    fill="#" opacity="1" data-original="#000000" />
+                            </g>
+                        </svg>
+                        <svg class="footer-icon__svg" id="telegram" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="" height="" x="0" y="0"
+                            viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path
+                                    d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931L23.93 3.821l.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693L18.953 5.78c.595-.394 1.136-.176.691.218z"
+                                    fill="" opacity="1" data-original="#000000" />
+                            </g>
+                        </svg>
+                        <svg class="footer-icon__svg" id="instageram" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="" height="" x="0" y="0"
+                            viewBox="0 0 511 511.9" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                            <g>
+                                <path
+                                    d="M510.95 150.5c-1.2-27.2-5.598-45.898-11.9-62.102-6.5-17.199-16.5-32.597-29.6-45.398-12.802-13-28.302-23.102-45.302-29.5-16.296-6.3-34.898-10.7-62.097-11.898C334.648.3 325.949 0 256.449 0s-78.199.3-105.5 1.5c-27.199 1.2-45.898 5.602-62.097 11.898-17.204 6.5-32.602 16.5-45.403 29.602-13 12.8-23.097 28.3-29.5 45.3-6.3 16.302-10.699 34.9-11.898 62.098C.75 177.801.449 186.5.449 256s.301 78.2 1.5 105.5c1.2 27.2 5.602 45.898 11.903 62.102 6.5 17.199 16.597 32.597 29.597 45.398 12.801 13 28.301 23.102 45.301 29.5 16.3 6.3 34.898 10.7 62.102 11.898 27.296 1.204 36 1.5 105.5 1.5s78.199-.296 105.5-1.5c27.199-1.199 45.898-5.597 62.097-11.898a130.934 130.934 0 0 0 74.903-74.898c6.296-16.301 10.699-34.903 11.898-62.102 1.2-27.3 1.5-36 1.5-105.5s-.102-78.2-1.3-105.5zm-46.098 209c-1.102 25-5.301 38.5-8.801 47.5-8.602 22.3-26.301 40-48.602 48.602-9 3.5-22.597 7.699-47.5 8.796-27 1.204-35.097 1.5-103.398 1.5s-76.5-.296-103.403-1.5c-25-1.097-38.5-5.296-47.5-8.796C94.551 451.5 84.45 445 76.25 436.5c-8.5-8.3-15-18.3-19.102-29.398-3.5-9-7.699-22.602-8.796-47.5-1.204-27-1.5-35.102-1.5-103.403s.296-76.5 1.5-103.398c1.097-25 5.296-38.5 8.796-47.5C61.25 94.199 67.75 84.1 76.352 75.898c8.296-8.5 18.296-15 29.398-19.097 9-3.5 22.602-7.7 47.5-8.801 27-1.2 35.102-1.5 103.398-1.5 68.403 0 76.5.3 103.403 1.5 25 1.102 38.5 5.3 47.5 8.8 11.097 4.098 21.199 10.598 29.398 19.098 8.5 8.301 15 18.301 19.102 29.403 3.5 9 7.699 22.597 8.8 47.5 1.2 27 1.5 35.097 1.5 103.398s-.3 76.301-1.5 103.301zm0 0"
+                                    fill="" opacity="1" data-original="#000000" class="" />
+                                <path
+                                    d="M256.45 124.5c-72.598 0-131.5 58.898-131.5 131.5s58.902 131.5 131.5 131.5c72.6 0 131.5-58.898 131.5-131.5s-58.9-131.5-131.5-131.5zm0 216.8c-47.098 0-85.302-38.198-85.302-85.3s38.204-85.3 85.301-85.3c47.102 0 85.301 38.198 85.301 85.3s-38.2 85.3-85.3 85.3zM423.852 119.3c0 16.954-13.747 30.7-30.704 30.7-16.953 0-30.699-13.746-30.699-30.7 0-16.956 13.746-30.698 30.7-30.698 16.956 0 30.703 13.742 30.703 30.699zm0 0"
+                                    fill="" opacity="1" data-original="#000000" class="" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-copy">
+                <h4 class="footer-copy__text">تمامی حقوق محفوظ کپی رایت ©</h4>
+            </div>
+        </div>
+
+    </footer>
+    <script src="../script/swiper.js"></script>
+    <script src="../script/app.js"></script>
+    <script src="../script/ashpazi.js"></script>
+
+</body>
+
+</html>

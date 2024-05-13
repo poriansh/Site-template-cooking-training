@@ -1,0 +1,273 @@
+@media (max-width : 768px){
+    
+    
+    .swiper-3d  .swiper-wrapper{
+
+        transform-style: flat !important;
+        
+    
+    }
+    .swiper-wrapper .swiper-slide{
+   
+        transform: none !important ;
+        
+    }
+    .swiper-slide img{
+        width: 100%;
+    }
+    
+    
+    
+}
+
+@media (max-width : 576px){
+    
+    
+    .option-box{
+        width: 47%;
+    }
+    *{
+        cursor: default !important;
+    }
+    
+   
+}
+
+@media (min-width : 576px){
+    
+    .container{
+        
+        width: 540px;
+        
+    }
+    .option-box{
+        width: 47%;
+    }
+    
+   
+}
+    
+
+@media (min-width : 768px){
+    
+    .container{
+    
+        width: 720px;
+    
+    }
+    .nav-menu{
+        display: flex;
+        align-items: center;
+    }
+    .toggel-menu{
+        display: none;
+    }
+    .header__werraper {
+        
+        flex-direction: row;
+    }
+    .footer_werapper{
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .footer{
+        background-image: url(../imges/footer-min.png);
+        background-position: left bottom;
+        padding-bottom: 0;
+    }
+    
+   
+    .course-Information__werraper {
+        
+        justify-content: center;
+        align-items: start;
+        gap: 4rem;
+        
+    }
+    
+    .Comments-werraper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .Comments-form__form{
+        align-items: start;
+    }
+    .Comments-form {
+        text-align: right;
+    }
+    .cours-content__link{
+        margin: 0;
+    }
+    .menu-mobail {
+        display: none;
+    }
+   
+    .cours-Information{
+        border: none;
+        
+    }
+    .swiper-button-prev,.swiper-button-next{
+        display: flex;
+    }
+    .contact-us-werraper{
+        flex-direction: row;
+    }
+    .contact-us-relationship__werapper{
+        flex-basis: 45%;
+    }
+    .contact-us-social__title{
+
+        font-size: 1.8rem;
+    }
+    .about-us-contant__head{
+        justify-content: start;
+    }
+    .about-us-contant__discription{
+        text-align: start;
+    }
+    .about-us__links{
+        justify-content: start;
+    }
+    
+    .Advertising{
+        height: 60rem;
+    }
+    .banner-home__title{
+        
+        font-size: 4rem;
+      
+        padding-top: 2rem;
+    
+    }
+    .banner-home__img{
+        height: 40rem;
+    }
+    
+    .banner-home__img {
+        background-size: cover;
+    }
+    .NavMenu{
+        display: none;
+    }
+    .nav-mobail{
+        display: none;
+    }
+   
+    
+    
+    
+}
+
+@media (min-width : 992px){
+    
+    .container{
+        
+        width: 960px;
+        
+    }
+    
+    .header__search{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        height: 4.5rem;
+        width: 30%;
+    }
+    .footer_werapper{
+        gap: 5rem;
+    }
+    .cours-content{
+        flex-direction: row-reverse;
+    }
+    
+    .cours-content__right{
+        flex-basis: 50%;
+    }
+    
+    .course-Information__werraper {
+        
+        gap: 2rem;
+        
+    }
+    .form {
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .form__input{
+        width: 45%;
+        flex-grow: 1;
+    }
+    .form__text{
+
+        max-height: 15rem;
+    }
+    .option-box{
+        width: 30%;
+    }
+    .option {
+        justify-content: center;
+    }
+    
+    .banner-home__title{
+        
+        font-size: 4rem;
+      
+        padding-top: 4rem;
+    
+    }
+   
+    .contact-us-home-werraper{
+        height: 36rem;
+    }
+    .contact-us-home-gif{
+        display: flex;
+    }
+    .contact-us-home-werraper{
+       flex-direction: row;
+    }
+    .course-part-contant {
+        flex-direction: row;
+        
+    }
+    .course-part-contentbox__box{
+
+   width: 50rem;
+    }
+}
+@media (min-width : 1200px){
+    
+    .container{
+        
+        width: 1140px;
+        
+    }
+    .footer_werapper{
+        gap: 5rem;
+    }
+    .cours-Information--border{
+        border-right:  2px dashed var(--text-color);
+    border-left:  2px dashed var(--text-color);
+    }
+    .form__text{
+
+        max-height: 12.6rem;
+
+    }
+    .option-box{
+        width: 23%;
+    }
+   
+}
+@media (min-width : 1400px ){
+    
+    .container{
+        
+        width: 1370px ;
+        
+    }
+   
+}

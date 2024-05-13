@@ -1,0 +1,21 @@
+@font-face{
+
+    font-family: "Dana";
+    src: url(../fonts/DanaFaNum-Regular.woff2) format('woff2');
+
+
+}
+@font-face{
+
+    font-family: "Dana medium";
+    src: url(../fonts/DanaFaNum-Medium.woff2) format('woff2');
+
+
+}
+@font-face{
+
+    font-family: "Dana bold";
+    src: url(../fonts/DanaFaNum-DemiBold.woff2) format('woff2');
+
+
+}

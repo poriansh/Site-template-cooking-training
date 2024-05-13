@@ -1,0 +1,303 @@
+:root {
+
+    --color-primery: #f28616;
+    --text-color: #633609;
+    --bg-color: #e8e1da;
+    --font-regular: "Dana";
+    --fon-medium: "Dana medium";
+    --fon-bold: "Dana bold";
+
+}
+
+/* .Advertising  */
+
+.Advertising {
+    background-image: url("../imges/بکگراند-دسکتاپ-min.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 70rem;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.Advertising__title {
+    font-family: var(--fon-bold);
+    font-size: 4rem;
+    color: var(--text-color);
+    padding: 0 1.5rem;
+
+}
+
+.Advertising__link {
+    margin: 0 auto;
+    width: 15rem;
+    height: 5rem;
+    color: #fff;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+}
+
+.Advertising__gif {
+    content: " ";
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 30rem;
+    height: 30rem;
+
+}
+
+.Advertising__gif img {
+    width: 100%;
+    height: 100%;
+    animation-name: rotat;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+
+}
+
+@keyframes rotat {
+    0% {
+        transform: rotate(0);
+
+    }
+
+    50% {
+
+        transform: rotate(-5deg);
+
+    }
+
+    100% {
+
+        transform: rotate(0);
+
+    }
+}
+
+
+/* cours */
+.section-product {
+    margin-top: 2rem;
+    
+}
+.section-product__title {
+    
+    font-family: var(--fon-bold);
+    color: var(--text-color);
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+    border-bottom: 4px dashed var(--color-primery);
+    text-align: center;
+    
+
+}
+.product-werraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.product-home {
+    background-color: #fff;
+    padding: 0.5rem 0 1rem 0;
+    border-radius: 1rem;
+    transition: all 200ms ease;
+    position: relative;
+
+}
+
+.product-home:hover {
+    box-shadow: 0 0 30px 20px #00000045;
+}
+
+.product-home__img {
+
+    overflow: hidden;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.product-home__img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    transition: all 200ms ease;
+    
+}
+.product-home:hover .product-home__img img{
+
+    transform: scale(1.2);
+}
+.product-home__link{
+    color: var(--title-color);
+}
+.product-home__title {
+    font-family: var(--fon-bold);
+    font-size: 1.4rem;
+    color: var(--title-color);
+    transition: all 150ms ease-in;
+    margin-top: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.product-home__title:hover {
+    color: var(--color-primery);
+}
+
+
+/* bnner home */
+
+.banner-home {
+    margin-top: 5rem;
+    
+    
+}
+.banner-home-section{
+    background-image: url("../imges/top-view-delicious-grilled-sausage-table-Top.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 40rem;
+    padding: 5rem 0;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+
+}
+.banner-home-text {
+    font-family: var(--fon-bold);
+    font-size: 3rem;
+    color: #fff;
+    border-bottom: 4px dashed var(--color-primery);
+    padding-bottom: 2rem;
+}
+.banner-home-title {
+  
+    
+}
+.banner-home-werraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    width: 80%;
+    margin-top: 4rem;
+    
+    
+}
+.banner-home-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--color-primery);
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+.banner-home-content svg{
+    width: 7rem;
+    height: 7rem;
+    
+}
+.banner-home-content__title {
+    text-align: center;
+    font-size: 1.6rem;
+    
+}
+
+
+/* contact us */
+
+
+.contact-us-home {
+    border-radius: 2rem;
+    margin-top: 5rem;
+}
+
+.contact-us-home-werraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: #eee2d5;
+
+
+
+}
+
+.contact-us-home-content {
+    flex-basis: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+    padding: 2rem;
+}
+
+.contact-us-home-content__caption {
+    font-size: 2.5rem;
+    font-family: var(--fon-medium);
+    color: #2f2f2f;
+}
+
+.contact-us-home-content__caption span {
+    color: var(--color-primery);
+}
+
+.contact-us-home-content__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.contact-us-home-gif {
+    flex-basis: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    display: none;
+    animation-name: rotat;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.contact-us-home-gif img {
+    width: 20rem;
+    transform: rotate(10deg);
+}
+
+.contact-us-home-img {
+    flex-basis: 30%;
+    height: 100%;
+    margin-bottom: -17px;
+}
+
+.contact-us-home-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
